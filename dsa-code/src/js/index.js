@@ -10,7 +10,10 @@ export { hanoi } from './others/hanoi';
 export { hanoiStack } from './others/hanoi';
 export { baseConverter } from './others/base-converter';
 export { decimalToBinary } from './others/base-converter';
+export { baseConverterValues } from './others/base-converter';
+export { baseConverterWithInbuiltFunc } from './others/base-converter';
 export { parenthesesChecker } from './others/balanced-symbols';
+export { isBalanced } from './others/balanced-symbols';
 
 // chapter 04
 export { default as Queue } from './data-structures/queue';
