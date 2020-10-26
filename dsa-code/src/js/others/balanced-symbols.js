@@ -32,7 +32,7 @@ export function isBalanced(symbol) {
   for (let index = 0; index < symbol.length; index++) {
     if (symbol[index] === '(' || symbol[index] === '{' || symbol[index] === '[') {
       stack.push(symbol[index]); // push left bracket
-    } else {
+    } else if (symbol[index] === ')' || symbol[index] === '}' || symbol[index] === ']') { {
       if (stack.isEmpty()) { // unmatched right bracket
         return false;
       }
